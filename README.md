@@ -1,5 +1,7 @@
 # Avantos React coding challenge
 
+link to 30 minute video: https://youtu.be/uwf2GKlZjC4
+
 How to run locally:
 1. Clone the provided API: https://github.com/Eric-Oyervides/frontendchallengeserver
    
