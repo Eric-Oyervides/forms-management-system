@@ -13,7 +13,7 @@ npm start
 It should start running on port: 3000
 
 
-4. In the folder of this repository, run:
+4. In the folder of this repository, in another terminal, run:
 
 ```bash
 npm install
