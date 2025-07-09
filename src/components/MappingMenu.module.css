@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mappingMenu__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.mappingMenu__header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    height: 80px;
+    width: 90%;
+    margin-left: 25px;
+    
+    font-size: 25px;
+}
+
+.mappingMenu__middle {
+    display: flex;
+
+    width: 100%;
+    height: 600px;
+    
+    background-color: #388bff;
+}
+
+.mappingMenu__left {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    
+    padding-left: 20px;
+    padding-top: 25px;
+    width: 50%;
+    
+    border: 1.5px solid #e8e8e8;
+    background-color: #e8e8e8 ;
+}   
+
+.mappingMenu__containerA {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 95%;
+
+    gap: 2px;
+}
+
+.mappingMenu__buttonA {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0);
+}
+
+.mappingMenu__buttonA:hover {
+    background-color: rgba(105, 170, 255, 0.2);
+}
+
+.mappingMenu__containerB {
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    margin-left: 40px;
+}
+
+.mappingMenu__propertyButton {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    border-width: 0px;
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+
+    background-color: rgba(0,0,0,0);
+}
+
+.mappingMenu__propertyButton:hover {
+    color: white;
+    background-color: #388bff;
+}
+
+.mappingMenu__selectedPropertyButton {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    border-width: 0px;
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    
+    color: white;
+    background-color: #006aff;
+}
+
+.mappingMenu__selectedPropertyButton:hover {
+    color: white;
+    background-color: #388bff;
+}
+
+
+.mappingMenu__right {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 100px;
+    width: 50%;
+
+    border: 1.5px solid #e8e8e8;
+    background-color: white;
+}
+
+.mappingMenu__footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    height: 80px;
+    width: 97%;
+
+    gap: 10px;
+}
+
+.mappingMenu__back {
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+
+  font-size: 17px;
+  color: #388bff;
+  border: 1.5px solid #388bff;
+  background-color: white;
+}
+
+.mappingMenu__back:hover {
+  color: white;
+  background-color: #388bff;
+}
+
+.mappingMenu__back:disabled {
+    border-color: #d1d1d1;
+    color: #919191;
+    background-color: #d1d1d1;
+}
+
+.mappingMenu__confirm {
+  height: 40px;
+  width: 100px;
+
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1.5px solid #388bff;
+  border-radius: 5px;
+  color: white;
+  background-color: #388bff;
+}
+
+.mappingMenu__confirm:hover {
+    background-color: #006aff;
+}
+
+.mappingMenu__confirm:disabled {
+    border-color: #d1d1d1;
+    color: #919191;
+    background-color: #d1d1d1;
+}
