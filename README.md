@@ -1,35 +1,43 @@
-#Avantos React coding challenge
+# Avantos React coding challenge
 
 How to run locally:
 1. Clone the provided API: https://github.com/Eric-Oyervides/frontendchallengeserver
+   
 2. Clone this repository in another folder
+ 
 3. In the folder of the API, run:
+
 ```bash
 npm start
 ```
 It should start running on port: 3000
 
+
 4. In the folder of this repository, run:
+
 ```bash
 npm install
 ```
 To install the packages
 
+
 5. If the API cannot run on port 3000, the port can be specified in "forms-management-system/src/pages/GraphViewer.tsx"
 
+
 6. To run the tests, run: 
+
 ```bash
 npm test
 ```
 Every test should appear as "passed"
+
 
 7.To run the project:
 ```bash
 npm run dev
 ```
 
-
-##Specifications
+## Specifications
 This project is designed to work with the structure given by the API and Avantos Core API Reference (https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-graph-get). The full information is fetched at the start and used throughout the program. Each node can be of several types, in the scope of this project, it can only be of type "form". And each node can be attached to another one, giving it access to its information. 
 
 This tools makes sure to read all the nodes given and read their name (nodes.data.name) and position (nodes.position), and show it on screen. This program shows the nodes and makes it possible to drag them to any position.
